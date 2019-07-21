@@ -23,7 +23,7 @@ The following is the model architecture.
 
 ## Usage
 - Training
-  * Basic usage `python train.py --train`
+  * Basic usage `python3 train.py --train`
   * Options
     - 'epoch': Epoch to train[300]
     - 'learning_rate': Learning rate of for adam [0.0002]
@@ -50,7 +50,7 @@ The following is the model architecture.
 - Generating Images from Vectors
   * Write the vectors in text file, and save it as ```test/test_in/test_label.txt```. Generate the Images for the vectors using:
   ```
-  python main.py
+  python3 main.py
   ```
    ```vectors``` specifies the number of images to be generated per caption. The generated images will be saved in ```test/test_out/```. 
    
