@@ -14,8 +14,11 @@ The following is the model architecture.
 - others
 
 ## Datasets
-- The model is currently trained on the [celeb-dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). Download the images and save them in ```data/ + "your dataset name" + /```.  Also put the label.ext in ```data/label.txt```. 
+- The model is currently trained on the [celeb-dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). Download the images and save them in ```data/ + "your dataset name" + /```.  Also put the ```label.txt``` in ```data/label.txt```. 
 
+- Make empty directories in data, data/samples, checkpoint. They will be used for sampling the generated images and saving the trained models.
+
+- You can also add your own dataset and transfer them to train the model, which is easy to modify.
 
 
 ## Usage
