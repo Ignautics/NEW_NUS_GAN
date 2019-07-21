@@ -1,2 +1,2 @@
 # NEW_NUS_GAN
-new project of Predictive Analytics【NUS Summer Work Shop 2019, based on celeb dataset】
+This is a tensorflow implementation of generating face images using condition-GAN named NUS_GAN. 
