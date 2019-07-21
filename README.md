@@ -48,7 +48,7 @@ The following is the model architecture.
     - 'generate_test_images': Number of images to generate during test. [100]
     
 - Generating Images from Vectors
-  * Write the vectors in text file, and save it as ```test/test_in/label.txt```. Generate the Images for the vectors using:
+  * Write the vectors in text file, and save it as ```test/test_in/test_label.txt```. Generate the Images for the vectors using:
   ```
   python main.py
   ```
