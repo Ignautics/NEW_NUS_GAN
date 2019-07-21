@@ -11,10 +11,11 @@ The following is the model architecture.
 - numpy 
 - scipy
 - matplotlib
-- Others
-
+- others
 
 ## Datasets
+- The model is currently trained on the [celeb-dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). Download the images and save them in ```data/ + "your dataset name" + /```.  Also put the label.ext in ```data/label.txt```. 
+
 
 
 ## Usage
