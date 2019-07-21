@@ -6,7 +6,12 @@ The following is the model architecture.
 
 
 ## Requirements
-
+- python3.6+
+- tensorflow
+- numpy 
+- scipy
+- matplotlib
+- Others
 
 
 ## Datasets
